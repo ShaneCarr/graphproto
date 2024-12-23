@@ -1,0 +1,16 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+  hello: String
+  getNumber: Int
+}
+
+type Mutation {
+  setNumber(value: Int!): Int
+}
+
+"Indicates exactly one field must be supplied and this field must not be `null`."
+directive @oneOf on INPUT_OBJECT

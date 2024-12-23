@@ -1,0 +1,9 @@
+query GetHello {
+    hello
+}
+query GetNumber {
+    getNumber
+}
+mutation SetNumber($value: Int!) {
+    setNumber(value: $value)
+}
