@@ -3,8 +3,7 @@
   "documents": "**/*.graphql",
   "extensions": {
     "strawberryShake": {
-      "name": "GraphQlTestingClient",
-      "namespace": "GraphTestingClient",
+      "name": "GraphQLSampleClient",
       "url": "http://localhost:4000/graphql",
       "records": {
         "inputs": false,
